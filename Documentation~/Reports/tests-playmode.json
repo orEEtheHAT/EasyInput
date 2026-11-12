@@ -1,0 +1,189 @@
+{
+  "status": "completed",
+  "duration": 5.41,
+  "summary": {
+    "total": 25,
+    "passed": 25,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "EasyInput.IntegrationTests.AdapterTests.BuildingAdapterPreservesIndependentBlockingOwner",
+      "Status": "Passed",
+      "Duration": 0.1487258,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.IntegrationTests.AdapterTests.CombatAdapterUsesDamageEmitterCooldownAndRuntimeBinding",
+      "Status": "Passed",
+      "Duration": 0.0986458,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.IntegrationTests.AdapterTests.EasyMovementUsesSharedSettingsOnceAndSurvivesControllerReplacement",
+      "Status": "Passed",
+      "Duration": 0.1269376,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.IntegrationTests.AdapterTests.FeedbackAdapterTargetsSelectedGamepadRatherThanGlobalCurrent",
+      "Status": "Passed",
+      "Duration": 0.1102093,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.IntegrationTests.AdapterTests.InteractionAdapterUsesReboundActionAndReleasesStandaloneReader",
+      "Status": "Passed",
+      "Duration": 0.0895312,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.IntegrationTests.AdapterTests.UGUIModuleUsesSharedActionsAndCannotUnblockRebind",
+      "Status": "Passed",
+      "Duration": 0.0963598,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.IntegrationTests.LocalizationAdapterTests.NativeLocalizedStringTracksLanguageRebindAndDisable",
+      "Status": "Passed",
+      "Duration": 0.083173,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.RebindTests.ConflictLeavesOriginalBindingUntouched",
+      "Status": "Passed",
+      "Duration": 0.3791572,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.RebindTests.EscapeCancelsAndTimeoutReleasesRequests",
+      "Status": "Passed",
+      "Duration": 0.795395,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.RebindTests.GamepadCancelConsumesPressWithoutClosingUIOrRebinding",
+      "Status": "Passed",
+      "Duration": 0.3071891,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.RebindTests.MouseAndGamepadSlotsRebindIndependently",
+      "Status": "Passed",
+      "Duration": 0.9172558,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.RebindTests.OpeningClickMustBeReleasedBeforeCapture",
+      "Status": "Passed",
+      "Duration": 0.3082611,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.RebindTests.RebindKeyboardDoesNotPerformGameplayAndPromptUpdates",
+      "Status": "Passed",
+      "Duration": 0.515956,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.RebindTests.SceneUnloadReleasesOnlyOwnersFromThatScene",
+      "Status": "Passed",
+      "Duration": 0.1223204,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.BindingRowsAreVisibleInsideViewportAndSliderHandlesFitTracks",
+      "Status": "Passed",
+      "Duration": 0.2613313,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.CancelFirstEndsRebindThenNextPressClosesWindow",
+      "Status": "Passed",
+      "Duration": 0.1037325,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.ContextSubscriberCanCloseWindowWhileItsLeaseIsBeingAcquired",
+      "Status": "Passed",
+      "Duration": 0.0351488,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.ContextSubscriberCanOpenAnotherWindowDuringAcquisition",
+      "Status": "Passed",
+      "Duration": 0.0294937,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.CustomPlayerMapAndHiddenInheritCursorAreRespected",
+      "Status": "Passed",
+      "Duration": 0.0919892,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.ExceptionAndReentrantListenerDoNotLeakContexts",
+      "Status": "Passed",
+      "Duration": 0.0627003,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.GamepadCancelIsNotAssignedAsNewBinding",
+      "Status": "Passed",
+      "Duration": 0.300223,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.ModuleEnableDisableCannotOverrideContextsAndCancelWorksWhileModuleDisabled",
+      "Status": "Passed",
+      "Duration": 0.0874596,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.PartialRestrictionsAndOutOfOrderClosureKeepMoveEnabled",
+      "Status": "Passed",
+      "Duration": 0.0549942,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.RealContextsStayOwnedAcrossNestedWindowsAndExternalRequest",
+      "Status": "Passed",
+      "Duration": 0.0781476,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests.SettingsWindowUsesRuntimeCaptureRestoreAndPresentation",
+      "Status": "Passed",
+      "Duration": 0.0753226,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}
+

@@ -1,0 +1,231 @@
+{
+  "status": "completed",
+  "duration": 2.86,
+  "summary": {
+    "total": 31,
+    "passed": 31,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.ActionLinksResolveReferencesByIdAndOptionalNamesWithoutOwningLifecycle",
+      "Status": "Passed",
+      "Duration": 0.3126513,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.AnalogInteractionUsesUserAxisDeadzone",
+      "Status": "Passed",
+      "Duration": 0.1080387,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.CallbackFailureDoesNotLoseContextHandle",
+      "Status": "Passed",
+      "Duration": 0.0740579,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.CompositePartsCanRebindAndResetSeparately",
+      "Status": "Passed",
+      "Duration": 0.0963157,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.ConflictRejectsWithoutMutationButIndependentMapsReuseButtons",
+      "Status": "Passed",
+      "Duration": 0.0679208,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.ContextReleaseRespectsTheUsersStickDeadzone",
+      "Status": "Passed",
+      "Duration": 0.0771556,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.CorruptAndFutureSaveAreRejectedAtomically",
+      "Status": "Passed",
+      "Duration": 0.0706172,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.DeviceDriftIsIgnoredAndMeaningfulInputSwitchesPresentation",
+      "Status": "Passed",
+      "Duration": 0.0789707,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.DisabledAndDestroyedOwnersCannotLeakRequests",
+      "Status": "Passed",
+      "Duration": 0.0621297,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.DisconnectWhileHoldingCancelsActionAndReconnectionWorks",
+      "Status": "Passed",
+      "Duration": 0.0696318,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.ExternalConsumerCannotOverrideContextOrDisableOtherConsumers",
+      "Status": "Passed",
+      "Duration": 0.0692406,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.FirstPersonBuildingPresetKeepsMoveLookAndBlocksConflictingGameplay",
+      "Status": "Passed",
+      "Duration": 0.0703644,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.HeldActionIsCancelledAndWaitsForReleaseAfterUI",
+      "Status": "Passed",
+      "Duration": 0.0697896,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.HigherPriorityCursorSurvivesOutOfOrderRelease",
+      "Status": "Passed",
+      "Duration": 0.0721565,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.KeepingAnAuthoredSharedAxisIsNotANewBindingConflict",
+      "Status": "Passed",
+      "Duration": 0.0739587,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.LookScalingIsFrameRateIndependent(30)",
+      "Status": "Passed",
+      "Duration": 0.1242405,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.LookScalingIsFrameRateIndependent(60)",
+      "Status": "Passed",
+      "Duration": 0.0679729,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.LookScalingIsFrameRateIndependent(144)",
+      "Status": "Passed",
+      "Duration": 0.0752904,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.NestedContextsReleaseOnlyTheirOwnRestrictions",
+      "Status": "Passed",
+      "Duration": 0.0682861,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.PartialBlockLeavesMovementEnabled",
+      "Status": "Passed",
+      "Duration": 0.0685266,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.RebindCancellationReleasesOnlyItsOwnContext",
+      "Status": "Passed",
+      "Duration": 0.0662523,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.RebindingEnabledActionThenBlockingDoesNotLeaveInputMonitors",
+      "Status": "Passed",
+      "Duration": 0.0619097,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.ReentrantContextCallbackKeepsBothHandlesIndependent",
+      "Status": "Passed",
+      "Duration": 0.0642923,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.RemovedBindingIsIgnoredAndNewActionsRemainAtDefaults",
+      "Status": "Passed",
+      "Duration": 0.066059,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.RemovingUnusedGamepadPreservesNativeKeyboardPhaseAndValue",
+      "Status": "Passed",
+      "Duration": 0.0916175,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.RuntimeCopyResolvesOriginalReferencesWithoutMutatingAssets",
+      "Status": "Passed",
+      "Duration": 0.0655805,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.SnapshotRoundTripsAndMissingNewSettingsUseDefaults",
+      "Status": "Passed",
+      "Duration": 0.069136,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.StickDeadzoneIsAppliedOnceAndSettingsDoNotMutateProfile",
+      "Status": "Passed",
+      "Duration": 0.0617964,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(\"XInputController\",Xbox,\"A\")",
+      "Status": "Passed",
+      "Duration": 0.0721885,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(\"DualShockGamepad\",PlayStation,\"Cross\")",
+      "Status": "Passed",
+      "Duration": 0.0805145,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyInput.Tests.InputSettingsTests.VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(\"SwitchProControllerHID\",SwitchPro,\"B\")",
+      "Status": "Passed",
+      "Duration": 0.0831992,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}
+

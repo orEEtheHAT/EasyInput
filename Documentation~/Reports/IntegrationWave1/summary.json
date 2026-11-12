@@ -1,0 +1,68 @@
+{
+  "status": "Passed",
+  "isolatedNewAdaptersPassed": 9,
+  "releasePublished": false,
+  "utc": "2026-11-12T18:00:27.0330211Z",
+  "originalInputDefinitions": {
+    "passed": true,
+    "baseline": "Builds/EasyInput/com.oreethehat.easy-input-0.1.0.tgz",
+    "preservedMaps": 3,
+    "preservedActions": 24,
+    "preservedBindings": 53,
+    "allOriginalDefinitionsUnchanged": true,
+    "extraActions": 7
+  },
+  "version": "0.1.0",
+  "sharedEditor": {
+    "fixtures": [
+      {
+        "fixture": "EasyInput.IntegrationTests.AdapterTests",
+        "passed": 7,
+        "total": 7
+      },
+      {
+        "fixture": "EasyInput.IntegrationTests.LocalizationAdapterTests",
+        "passed": 1,
+        "total": 1
+      },
+      {
+        "fixture": "EasyInput.IntegrationTests.Wave1Tests",
+        "passed": 9,
+        "total": 9
+      },
+      {
+        "fixture": "EasyInput.Tests.RebindTests",
+        "passed": 7,
+        "total": 7
+      },
+      {
+        "fixture": "EasyUI.Integrations.Input.Tests.EasyInputWindowTests",
+        "passed": 13,
+        "total": 13
+      }
+    ],
+    "playMode": {
+      "total": 37,
+      "passed": 37,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "editMode": {
+      "total": 31,
+      "passed": 31,
+      "failed": 0,
+      "skipped": 0,
+      "inconclusive": 0
+    },
+    "keyboardOnlyRegression": "Passed"
+  },
+  "hardwareValidation": false,
+  "clean": {
+    "buildWarnings": 0,
+    "playModePassed": 7,
+    "editModePassed": 31,
+    "buildErrors": 0,
+    "optionalPackagesInstalled": false
+  }
+}

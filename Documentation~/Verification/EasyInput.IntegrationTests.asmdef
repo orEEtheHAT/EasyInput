@@ -1,0 +1,33 @@
+{
+  "name": "EasyInput.IntegrationTests",
+  "references": [
+    "EasyInput.Runtime",
+    "Unity.InputSystem",
+    "EasyInput.EasyMovement",
+    "EasyInput.EasyInteraction",
+    "EasyInput.EasyCombat",
+    "EasyInput.EasyBuilding",
+    "EasyInput.EasyFeedbacks",
+    "EasyMovement.FirstPerson",
+    "ECM2",
+    "EasyInteraction.Runtime",
+    "EasyBuilding.Runtime",
+    "EasyCombat.Runtime",
+    "EasyFeedbacks.Runtime",
+    "EasyInput.UGUI",
+    "Unity.ugui",
+    "EasyInput.Localization",
+    "EasyLocalization.Runtime",
+    "Unity.Localization",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "EasyInteraction.EasyMovement",
+    "EasyInteraction.EasyBuilding",
+    "EasyUI.Runtime",
+    "EasyUI.EasyInput"
+  ],
+  "allowUnsafeCode": true,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

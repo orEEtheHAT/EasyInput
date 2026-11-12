@@ -1,0 +1,25 @@
+{
+  "name": "EasyInput.Localization",
+  "references": [
+    "EasyInput.Runtime",
+    "Unity.InputSystem",
+    "EasyLocalization.Runtime",
+    "Unity.Localization"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.oreethehat.easy-input",
+      "expression": "0.2.0",
+      "define": "EASY_WAVE1_INPUT"
+    },
+    {
+      "name": "com.oreethehat.easy-localization",
+      "expression": "0.2.0",
+      "define": "EASY_WAVE1_LOCALIZATION"
+    }
+  ],
+  "defineConstraints": [
+    "EASY_WAVE1_INPUT",
+    "EASY_WAVE1_LOCALIZATION"
+  ]
+}

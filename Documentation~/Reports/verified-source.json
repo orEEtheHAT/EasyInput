@@ -1,0 +1,28 @@
+{
+  "package": "com.oreethehat.easy-input",
+  "version": "0.1.0",
+  "sourceTreeSha256": "35e58d7dbeefc530841039e5d16a722468b5e518a74b4c88d90bc5f9d782363a",
+  "sourceFiles": 107,
+  "includes": [
+    "Runtime",
+    "Editor",
+    "Samples~",
+    "Tests"
+  ],
+  "editMode": {
+    "total": 27,
+    "passed": 27,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "playMode": {
+    "total": 25,
+    "passed": 25,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "mainBuild": "Succeeded",
+  "cleanInstall": "Succeeded"
+}

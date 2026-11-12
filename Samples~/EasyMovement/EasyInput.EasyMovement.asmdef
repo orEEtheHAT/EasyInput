@@ -1,0 +1,25 @@
+{
+  "name": "EasyInput.EasyMovement",
+  "references": [
+    "EasyInput.Runtime",
+    "Unity.InputSystem",
+    "EasyMovement.FirstPerson",
+    "ECM2"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.oreethehat.easy-input",
+      "expression": "0.2.0",
+      "define": "EASY_WAVE1_INPUT"
+    },
+    {
+      "name": "com.oreethehat.easy-movement",
+      "expression": "5.1.0",
+      "define": "EASY_WAVE1_MOVEMENT"
+    }
+  ],
+  "defineConstraints": [
+    "EASY_WAVE1_INPUT",
+    "EASY_WAVE1_MOVEMENT"
+  ]
+}

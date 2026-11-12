@@ -1,0 +1,29 @@
+{
+  "references": [
+    "EasyInput.Runtime",
+    "EasyInput.Editor",
+    "EasyInput.EasyFeedbacks",
+    "EasyFeedbacks.Runtime",
+    "Unity.InputSystem"
+  ],
+  "name": "EasyInput.EasyFeedbacks.Editor",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.oreethehat.easy-feedbacks",
+      "expression": "1.8.0",
+      "define": "EASY_WAVE1_FEEDBACKS"
+    },
+    {
+      "name": "com.oreethehat.easy-input",
+      "expression": "0.2.0",
+      "define": "EASY_WAVE1_INPUT"
+    }
+  ],
+  "defineConstraints": [
+    "EASY_WAVE1_FEEDBACKS",
+    "EASY_WAVE1_INPUT"
+  ]
+}

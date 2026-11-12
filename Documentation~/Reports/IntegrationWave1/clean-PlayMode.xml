@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-12 17:22:42Z" end-time="2026-11-12 17:22:44Z" duration="2,2139757">
+  <test-suite type="TestSuite" id="1014" name="EasyInput Install Check" fullname="EasyInput Install Check" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-12 17:22:42Z" end-time="2026-11-12 17:22:44Z" duration="2.213976" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1009" name="EasyInput.PlayModeTests.dll" fullname="C:/Users/LeshaPC/Games Factory/Library/EasyInputWave1Work/CleanProject/Library/ScriptAssemblies/EasyInput.PlayModeTests.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-12 17:22:42Z" end-time="2026-11-12 17:22:44Z" duration="2.208695" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="62020" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1010" name="EasyInput" fullname="EasyInput" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-12 17:22:42Z" end-time="2026-11-12 17:22:44Z" duration="2.208387" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1011" name="Tests" fullname="EasyInput.Tests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-12 17:22:42Z" end-time="2026-11-12 17:22:44Z" duration="2.208239" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="RebindTests" fullname="EasyInput.Tests.RebindTests" classname="EasyInput.Tests.RebindTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-12 17:22:42Z" end-time="2026-11-12 17:22:44Z" duration="2.207319" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="ConflictLeavesOriginalBindingUntouched" fullname="EasyInput.Tests.RebindTests.ConflictLeavesOriginalBindingUntouched" methodname="ConflictLeavesOriginalBindingUntouched" classname="EasyInput.Tests.RebindTests" runstate="Runnable" seed="1343634054" result="Passed" start-time="2026-11-12 17:22:42Z" end-time="2026-11-12 17:22:43Z" duration="0.396559" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="EscapeCancelsAndTimeoutReleasesRequests" fullname="EasyInput.Tests.RebindTests.EscapeCancelsAndTimeoutReleasesRequests" methodname="EscapeCancelsAndTimeoutReleasesRequests" classname="EasyInput.Tests.RebindTests" runstate="Runnable" seed="176951158" result="Passed" start-time="2026-11-12 17:22:43Z" end-time="2026-11-12 17:22:43Z" duration="0.534722" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="GamepadCancelConsumesPressWithoutClosingUIOrRebinding" fullname="EasyInput.Tests.RebindTests.GamepadCancelConsumesPressWithoutClosingUIOrRebinding" methodname="GamepadCancelConsumesPressWithoutClosingUIOrRebinding" classname="EasyInput.Tests.RebindTests" runstate="Runnable" seed="102016526" result="Passed" start-time="2026-11-12 17:22:43Z" end-time="2026-11-12 17:22:43Z" duration="0.196120" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="MouseAndGamepadSlotsRebindIndependently" fullname="EasyInput.Tests.RebindTests.MouseAndGamepadSlotsRebindIndependently" methodname="MouseAndGamepadSlotsRebindIndependently" classname="EasyInput.Tests.RebindTests" runstate="Runnable" seed="2044069829" result="Passed" start-time="2026-11-12 17:22:43Z" end-time="2026-11-12 17:22:44Z" duration="0.568229" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="OpeningClickMustBeReleasedBeforeCapture" fullname="EasyInput.Tests.RebindTests.OpeningClickMustBeReleasedBeforeCapture" methodname="OpeningClickMustBeReleasedBeforeCapture" classname="EasyInput.Tests.RebindTests" runstate="Runnable" seed="356860038" result="Passed" start-time="2026-11-12 17:22:44Z" end-time="2026-11-12 17:22:44Z" duration="0.203655" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="RebindKeyboardDoesNotPerformGameplayAndPromptUpdates" fullname="EasyInput.Tests.RebindTests.RebindKeyboardDoesNotPerformGameplayAndPromptUpdates" methodname="RebindKeyboardDoesNotPerformGameplayAndPromptUpdates" classname="EasyInput.Tests.RebindTests" runstate="Runnable" seed="722040045" result="Passed" start-time="2026-11-12 17:22:44Z" end-time="2026-11-12 17:22:44Z" duration="0.292883" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="SceneUnloadReleasesOnlyOwnersFromThatScene" fullname="EasyInput.Tests.RebindTests.SceneUnloadReleasesOnlyOwnersFromThatScene" methodname="SceneUnloadReleasesOnlyOwnersFromThatScene" classname="EasyInput.Tests.RebindTests" runstate="Runnable" seed="331666458" result="Passed" start-time="2026-11-12 17:22:44Z" end-time="2026-11-12 17:22:44Z" duration="0.004769" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\Users\LeshaPC\Games Factory\Library\EasyInputWave1Work\CleanProject\Reports\PlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

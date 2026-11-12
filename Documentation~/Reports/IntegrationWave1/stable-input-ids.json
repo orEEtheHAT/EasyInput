@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "baseline": "Builds/EasyInput/com.oreethehat.easy-input-0.1.0.tgz",
+  "preservedMaps": 3,
+  "preservedActions": 24,
+  "preservedBindings": 53,
+  "allOriginalDefinitionsUnchanged": true,
+  "extraActions": 7
+}

@@ -1,0 +1,1 @@
+{"name":"EasyInput.Sample.Editor","references":["EasyInput.Runtime","EasyInput.Sample","Unity.InputSystem"],"includePlatforms":["Editor"]}

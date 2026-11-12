@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="31" result="Passed" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0,4546552">
+  <test-suite type="TestSuite" id="1000" name="EasyInput Install Check" fullname="EasyInput Install Check" runstate="Runnable" testcasecount="31" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.454655" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1035" name="EasyInput.Tests.dll" fullname="C:/Users/LeshaPC/Games Factory/Library/EasyInputWave1Work/CleanProject/Library/ScriptAssemblies/EasyInput.Tests.dll" runstate="Runnable" testcasecount="31" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.445061" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32604" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1036" name="EasyInput" fullname="EasyInput" runstate="Runnable" testcasecount="31" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.444710" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1037" name="Tests" fullname="EasyInput.Tests" runstate="Runnable" testcasecount="31" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.444566" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="InputSettingsTests" fullname="EasyInput.Tests.InputSettingsTests" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" testcasecount="31" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.443716" total="31" passed="31" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1003" name="ActionLinksResolveReferencesByIdAndOptionalNamesWithoutOwningLifecycle" fullname="EasyInput.Tests.InputSettingsTests.ActionLinksResolveReferencesByIdAndOptionalNamesWithoutOwningLifecycle" methodname="ActionLinksResolveReferencesByIdAndOptionalNamesWithoutOwningLifecycle" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1249664092" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.202486" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="AnalogInteractionUsesUserAxisDeadzone" fullname="EasyInput.Tests.InputSettingsTests.AnalogInteractionUsesUserAxisDeadzone" methodname="AnalogInteractionUsesUserAxisDeadzone" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1549094623" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.025762" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="CallbackFailureDoesNotLoseContextHandle" fullname="EasyInput.Tests.InputSettingsTests.CallbackFailureDoesNotLoseContextHandle" methodname="CallbackFailureDoesNotLoseContextHandle" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="449510988" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.013593" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[InvalidOperationException: expected listener failure
+EasyInput.Tests.InputSettingsTests+<>c.<CallbackFailureDoesNotLoseContextHandle>b__25_0 () (at ./Library/PackageCache/com.oreethehat.easy-input@5b855f26914f/Tests/EditMode/InputSettingsTests.cs:149)
+EasyInput.InputSignal.Raise () (at ./Library/PackageCache/com.oreethehat.easy-input@5b855f26914f/Runtime/InputSignal.cs:23)
+UnityEngine.Debug:LogException(Exception)
+EasyInput.InputSignal:Raise() (at ./Library/PackageCache/com.oreethehat.easy-input@5b855f26914f/Runtime/InputSignal.cs:23)
+EasyInput.PlayerInputSettings:RecomputeContexts() (at ./Library/PackageCache/com.oreethehat.easy-input@5b855f26914f/Runtime/PlayerInputSettings.Contexts.cs:114)
+EasyInput.PlayerInputSettings:AcquireContext(Object, InputContextRequest) (at ./Library/PackageCache/com.oreethehat.easy-input@5b855f26914f/Runtime/PlayerInputSettings.Contexts.cs:44)
+EasyInput.Tests.InputSettingsTests:CallbackFailureDoesNotLoseContextHandle() (at ./Library/PackageCache/com.oreethehat.easy-input@5b855f26914f/Tests/EditMode/InputSettingsTests.cs:151)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+]]></output>
+            </test-case>
+            <test-case id="1016" name="CompositePartsCanRebindAndResetSeparately" fullname="EasyInput.Tests.InputSettingsTests.CompositePartsCanRebindAndResetSeparately" methodname="CompositePartsCanRebindAndResetSeparately" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="2112337340" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.017831" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="ConflictRejectsWithoutMutationButIndependentMapsReuseButtons" fullname="EasyInput.Tests.InputSettingsTests.ConflictRejectsWithoutMutationButIndependentMapsReuseButtons" methodname="ConflictRejectsWithoutMutationButIndependentMapsReuseButtons" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="469763392" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.004229" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="ContextReleaseRespectsTheUsersStickDeadzone" fullname="EasyInput.Tests.InputSettingsTests.ContextReleaseRespectsTheUsersStickDeadzone" methodname="ContextReleaseRespectsTheUsersStickDeadzone" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1239519314" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.008296" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="CorruptAndFutureSaveAreRejectedAtomically" fullname="EasyInput.Tests.InputSettingsTests.CorruptAndFutureSaveAreRejectedAtomically" methodname="CorruptAndFutureSaveAreRejectedAtomically" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1667580867" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.007447" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="DeviceDriftIsIgnoredAndMeaningfulInputSwitchesPresentation" fullname="EasyInput.Tests.InputSettingsTests.DeviceDriftIsIgnoredAndMeaningfulInputSwitchesPresentation" methodname="DeviceDriftIsIgnoredAndMeaningfulInputSwitchesPresentation" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1231026497" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.010696" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="DisabledAndDestroyedOwnersCannotLeakRequests" fullname="EasyInput.Tests.InputSettingsTests.DisabledAndDestroyedOwnersCannotLeakRequests" methodname="DisabledAndDestroyedOwnersCannotLeakRequests" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="478742866" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.006184" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="DisconnectWhileHoldingCancelsActionAndReconnectionWorks" fullname="EasyInput.Tests.InputSettingsTests.DisconnectWhileHoldingCancelsActionAndReconnectionWorks" methodname="DisconnectWhileHoldingCancelsActionAndReconnectionWorks" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1432277918" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.004845" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="ExternalConsumerCannotOverrideContextOrDisableOtherConsumers" fullname="EasyInput.Tests.InputSettingsTests.ExternalConsumerCannotOverrideContextOrDisableOtherConsumers" methodname="ExternalConsumerCannotOverrideContextOrDisableOtherConsumers" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1953020821" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.002879" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="FirstPersonBuildingPresetKeepsMoveLookAndBlocksConflictingGameplay" fullname="EasyInput.Tests.InputSettingsTests.FirstPersonBuildingPresetKeepsMoveLookAndBlocksConflictingGameplay" methodname="FirstPersonBuildingPresetKeepsMoveLookAndBlocksConflictingGameplay" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1619010538" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.004454" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="HeldActionIsCancelledAndWaitsForReleaseAfterUI" fullname="EasyInput.Tests.InputSettingsTests.HeldActionIsCancelledAndWaitsForReleaseAfterUI" methodname="HeldActionIsCancelledAndWaitsForReleaseAfterUI" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1717085099" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.003709" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="HigherPriorityCursorSurvivesOutOfOrderRelease" fullname="EasyInput.Tests.InputSettingsTests.HigherPriorityCursorSurvivesOutOfOrderRelease" methodname="HigherPriorityCursorSurvivesOutOfOrderRelease" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="20618213" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.002973" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="KeepingAnAuthoredSharedAxisIsNotANewBindingConflict" fullname="EasyInput.Tests.InputSettingsTests.KeepingAnAuthoredSharedAxisIsNotANewBindingConflict" methodname="KeepingAnAuthoredSharedAxisIsNotANewBindingConflict" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1444348057" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.002871" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1023" name="LookScalingIsFrameRateIndependent" fullname="EasyInput.Tests.InputSettingsTests.LookScalingIsFrameRateIndependent" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.020823" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1020" name="LookScalingIsFrameRateIndependent(30)" fullname="EasyInput.Tests.InputSettingsTests.LookScalingIsFrameRateIndependent(30)" methodname="LookScalingIsFrameRateIndependent" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1156375590" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.003406" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1021" name="LookScalingIsFrameRateIndependent(60)" fullname="EasyInput.Tests.InputSettingsTests.LookScalingIsFrameRateIndependent(60)" methodname="LookScalingIsFrameRateIndependent" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="841295501" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.007546" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1022" name="LookScalingIsFrameRateIndependent(144)" fullname="EasyInput.Tests.InputSettingsTests.LookScalingIsFrameRateIndependent(144)" methodname="LookScalingIsFrameRateIndependent" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1939354451" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.007763" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1006" name="NestedContextsReleaseOnlyTheirOwnRestrictions" fullname="EasyInput.Tests.InputSettingsTests.NestedContextsReleaseOnlyTheirOwnRestrictions" methodname="NestedContextsReleaseOnlyTheirOwnRestrictions" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1869454535" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.003059" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="PartialBlockLeavesMovementEnabled" fullname="EasyInput.Tests.InputSettingsTests.PartialBlockLeavesMovementEnabled" methodname="PartialBlockLeavesMovementEnabled" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="391435083" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.003098" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="RebindCancellationReleasesOnlyItsOwnContext" fullname="EasyInput.Tests.InputSettingsTests.RebindCancellationReleasesOnlyItsOwnContext" methodname="RebindCancellationReleasesOnlyItsOwnContext" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1914497371" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.004921" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="RebindingEnabledActionThenBlockingDoesNotLeaveInputMonitors" fullname="EasyInput.Tests.InputSettingsTests.RebindingEnabledActionThenBlockingDoesNotLeaveInputMonitors" methodname="RebindingEnabledActionThenBlockingDoesNotLeaveInputMonitors" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="870262024" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.004379" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="ReentrantContextCallbackKeepsBothHandlesIndependent" fullname="EasyInput.Tests.InputSettingsTests.ReentrantContextCallbackKeepsBothHandlesIndependent" methodname="ReentrantContextCallbackKeepsBothHandlesIndependent" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="139843945" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.003857" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="RemovedBindingIsIgnoredAndNewActionsRemainAtDefaults" fullname="EasyInput.Tests.InputSettingsTests.RemovedBindingIsIgnoredAndNewActionsRemainAtDefaults" methodname="RemovedBindingIsIgnoredAndNewActionsRemainAtDefaults" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1677949255" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.011598" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="RemovingUnusedGamepadPreservesNativeKeyboardPhaseAndValue" fullname="EasyInput.Tests.InputSettingsTests.RemovingUnusedGamepadPreservesNativeKeyboardPhaseAndValue" methodname="RemovingUnusedGamepadPreservesNativeKeyboardPhaseAndValue" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="20968732" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.009644" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="RuntimeCopyResolvesOriginalReferencesWithoutMutatingAssets" fullname="EasyInput.Tests.InputSettingsTests.RuntimeCopyResolvesOriginalReferencesWithoutMutatingAssets" methodname="RuntimeCopyResolvesOriginalReferencesWithoutMutatingAssets" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1413067267" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.004263" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="SnapshotRoundTripsAndMissingNewSettingsUseDefaults" fullname="EasyInput.Tests.InputSettingsTests.SnapshotRoundTripsAndMissingNewSettingsUseDefaults" methodname="SnapshotRoundTripsAndMissingNewSettingsUseDefaults" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="318786553" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.012616" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="StickDeadzoneIsAppliedOnceAndSettingsDoNotMutateProfile" fullname="EasyInput.Tests.InputSettingsTests.StickDeadzoneIsAppliedOnceAndSettingsDoNotMutateProfile" methodname="StickDeadzoneIsAppliedOnceAndSettingsDoNotMutateProfile" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="94792137" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.008515" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1032" name="VirtualControllerLayoutsSelectTheCorrectFamilyGlyph" fullname="EasyInput.Tests.InputSettingsTests.VirtualControllerLayoutsSelectTheCorrectFamilyGlyph" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.021970" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1029" name="VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(&quot;XInputController&quot;,Xbox,&quot;A&quot;)" fullname="EasyInput.Tests.InputSettingsTests.VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(&quot;XInputController&quot;,Xbox,&quot;A&quot;)" methodname="VirtualControllerLayoutsSelectTheCorrectFamilyGlyph" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1925306134" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.006872" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1030" name="VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(&quot;DualShockGamepad&quot;,PlayStation,&quot;Cross&quot;)" fullname="EasyInput.Tests.InputSettingsTests.VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(&quot;DualShockGamepad&quot;,PlayStation,&quot;Cross&quot;)" methodname="VirtualControllerLayoutsSelectTheCorrectFamilyGlyph" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1708848779" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.005212" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1031" name="VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(&quot;SwitchProControllerHID&quot;,SwitchPro,&quot;B&quot;)" fullname="EasyInput.Tests.InputSettingsTests.VirtualControllerLayoutsSelectTheCorrectFamilyGlyph(&quot;SwitchProControllerHID&quot;,SwitchPro,&quot;B&quot;)" methodname="VirtualControllerLayoutsSelectTheCorrectFamilyGlyph" classname="EasyInput.Tests.InputSettingsTests" runstate="Runnable" seed="1894746683" result="Passed" start-time="2026-11-12 17:18:06Z" end-time="2026-11-12 17:18:06Z" duration="0.009064" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:\Users\LeshaPC\Games Factory\Library\EasyInputWave1Work\CleanProject\Reports\EditMode.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

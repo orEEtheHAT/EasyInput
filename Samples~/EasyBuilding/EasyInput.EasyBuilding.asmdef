@@ -1,0 +1,24 @@
+{
+  "name": "EasyInput.EasyBuilding",
+  "references": [
+    "EasyInput.Runtime",
+    "Unity.InputSystem",
+    "EasyBuilding.Runtime"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.oreethehat.easy-building",
+      "expression": "0.3.0",
+      "define": "EASY_WAVE1_BUILDING"
+    },
+    {
+      "name": "com.oreethehat.easy-input",
+      "expression": "0.2.0",
+      "define": "EASY_WAVE1_INPUT"
+    }
+  ],
+  "defineConstraints": [
+    "EASY_WAVE1_BUILDING",
+    "EASY_WAVE1_INPUT"
+  ]
+}

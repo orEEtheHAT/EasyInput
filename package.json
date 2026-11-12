@@ -1,0 +1,62 @@
+{
+  "name": "com.oreethehat.easy-input",
+  "displayName": "EasyInput",
+  "version": "0.2.0",
+  "unity": "6000.3",
+  "description": "One runtime input set per player, user settings, rebinding, contexts and device-aware prompts.",
+  "author": {
+    "name": "orEEtheHAT"
+  },
+  "dependencies": {
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "Getting Started",
+      "description": "Standalone settings panel, rebinding, prompts and capture/restore. Requires EasyInput 0.2.0+. No prerequisite sample imports.",
+      "path": "Samples~/Getting Started"
+    },
+    {
+      "displayName": "EasyMovement",
+      "description": "Shared FPS controls and scripted movement blocks. Requires EasyInput 0.2.0+, EasyMovement 5.1.0+, ECM2 (separate installation; tested with 1.4.3). No prerequisite sample imports.",
+      "path": "Samples~/EasyMovement"
+    },
+    {
+      "displayName": "EasyInteraction",
+      "description": "Shared prompts, pickup, rotation, throw and analog controls. Requires EasyInput 0.2.0+, EasyInteraction 0.3.0+. No prerequisite sample imports.",
+      "path": "Samples~/EasyInteraction"
+    },
+    {
+      "displayName": "EasyBuilding",
+      "description": "Explicit FPS/strategy modes using the shared actor session. Requires EasyBuilding 0.3.0+, EasyInput 0.2.0+. No prerequisite sample imports.",
+      "path": "Samples~/EasyBuilding"
+    },
+    {
+      "displayName": "EasyCombat",
+      "description": "Shared firing through DamageEmitter. Requires EasyCombat 0.7.0+, EasyInput 0.2.0+. No prerequisite sample imports.",
+      "path": "Samples~/EasyCombat"
+    },
+    {
+      "displayName": "EasyFeedbacks",
+      "description": "Player-targeted feedback context and input presets. Requires EasyFeedbacks 1.8.0+, EasyInput 0.2.0+. No prerequisite sample imports.",
+      "path": "Samples~/EasyFeedbacks"
+    },
+    {
+      "displayName": "Localization",
+      "description": "Event-driven localized prompts with standard LocalizedString references. Requires EasyInput 0.2.0+, EasyLocalization 0.2.0+, Unity Localization 1.5.13+. No prerequisite sample imports.",
+      "path": "Samples~/Localization"
+    },
+    {
+      "displayName": "UGUI",
+      "description": "Connect InputSystemUIInputModule to the same runtime actions. Requires EasyInput 0.2.0+, uGUI 2.0.0+. No prerequisite sample imports.",
+      "path": "Samples~/UGUI"
+    },
+    {
+      "displayName": "Benchmarks",
+      "description": "Standalone CPU, memory and allocation measurement for 1, 100 and 2000 prompts. Requires EasyInput 0.2.0+. No prerequisite sample imports.",
+      "path": "Samples~/Benchmarks"
+    }
+  ]
+}

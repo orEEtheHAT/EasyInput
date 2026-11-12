@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:53Z" duration="0,6425233">
+  <test-suite type="TestSuite" id="1026" name="EasyInput Install Check" fullname="EasyInput Install Check" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:53Z" duration="0.642523" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1020" name="EasyInput.IntegrationTests.dll" fullname="C:/Users/LeshaPC/Games Factory/Library/EasyInputWave1Work/IntegrationProject/Library/ScriptAssemblies/EasyInput.IntegrationTests.dll" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:53Z" duration="0.633364" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="64144" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1021" name="EasyInput" fullname="EasyInput" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:53Z" duration="0.632666" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1022" name="IntegrationTests" fullname="EasyInput.IntegrationTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:53Z" duration="0.632133" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1010" name="Wave1Tests" fullname="EasyInput.IntegrationTests.Wave1Tests" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:53Z" duration="0.630481" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1015" name="AnalogAndSecondaryUsePublicActorOperations" fullname="EasyInput.IntegrationTests.Wave1Tests.AnalogAndSecondaryUsePublicActorOperations" methodname="AnalogAndSecondaryUsePublicActorOperations" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="665020545" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:52Z" duration="0.312697" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="ApproachAndIndependentBlocksPreserveScriptedMotorAcrossCallbacksAndDisable" fullname="EasyInput.IntegrationTests.Wave1Tests.ApproachAndIndependentBlocksPreserveScriptedMotorAcrossCallbacksAndDisable" methodname="ApproachAndIndependentBlocksPreserveScriptedMotorAcrossCallbacksAndDisable" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="1090124472" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:52Z" duration="0.067477" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="BuildingUsesCanonicalSessionAndExplicitFpsModeThenPreservesNestedUi" fullname="EasyInput.IntegrationTests.Wave1Tests.BuildingUsesCanonicalSessionAndExplicitFpsModeThenPreservesNestedUi" methodname="BuildingUsesCanonicalSessionAndExplicitFpsModeThenPreservesNestedUi" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="2137452455" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:52Z" duration="0.111524" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Pointer-related actions used with the UI input module should generally be set to Pass-Through type so that the module can properly distinguish between input from multiple pointers (action UI/Click[/Mouse/leftButton] is set to Button)
+]]></output>
+            </test-case>
+            <test-case id="1019" name="FeedbackProviderPreservesExplicitDeviceAndEveryContextValue" fullname="EasyInput.IntegrationTests.Wave1Tests.FeedbackProviderPreservesExplicitDeviceAndEveryContextValue" methodname="FeedbackProviderPreservesExplicitDeviceAndEveryContextValue" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="2052537301" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:52Z" duration="0.010628" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="FpsBuildingRoutesRotationAndConfirmationIntoTheCurrentSession" fullname="EasyInput.IntegrationTests.Wave1Tests.FpsBuildingRoutesRotationAndConfirmationIntoTheCurrentSession" methodname="FpsBuildingRoutesRotationAndConfirmationIntoTheCurrentSession" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="846550745" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:52Z" duration="0.057702" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="GrabRotateDistanceAndThrowUseSharedInputAndConsumeOnlyLook" fullname="EasyInput.IntegrationTests.Wave1Tests.GrabRotateDistanceAndThrowUseSharedInputAndConsumeOnlyLook" methodname="GrabRotateDistanceAndThrowUseSharedInputAndConsumeOnlyLook" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="1237930967" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:52Z" duration="0.016122" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="NextTargetAndRebindCancellationUseTheConfiguredSharedActions" fullname="EasyInput.IntegrationTests.Wave1Tests.NextTargetAndRebindCancellationUseTheConfiguredSharedActions" methodname="NextTargetAndRebindCancellationUseTheConfiguredSharedActions" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="2134801605" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:52Z" duration="0.012523" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="PresenterFollowsSharedBindingDeviceGlyphProfileAndToggle" fullname="EasyInput.IntegrationTests.Wave1Tests.PresenterFollowsSharedBindingDeviceGlyphProfileAndToggle" methodname="PresenterFollowsSharedBindingDeviceGlyphProfileAndToggle" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="1858213245" result="Passed" start-time="2026-11-12 17:39:52Z" end-time="2026-11-12 17:39:53Z" duration="0.018761" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="ToggleAndNestedWindowsCancelOwnedGrabWithoutReleasingOtherContexts" fullname="EasyInput.IntegrationTests.Wave1Tests.ToggleAndNestedWindowsCancelOwnedGrabWithoutReleasingOtherContexts" methodname="ToggleAndNestedWindowsCancelOwnedGrabWithoutReleasingOtherContexts" classname="EasyInput.IntegrationTests.Wave1Tests" runstate="Runnable" seed="1335460182" result="Passed" start-time="2026-11-12 17:39:53Z" end-time="2026-11-12 17:39:53Z" duration="0.010035" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Pointer-related actions used with the UI input module should generally be set to Pass-Through type so that the module can properly distinguish between input from multiple pointers (action UI/Click[/Mouse/leftButton] is set to Button)
+Saving results to: C:/Users/LeshaPC/AppData/LocalLow/EasyInput/EasyInput Install Check\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2701d77b9465a7640898248c9a80beb8, type: 3}
+  m_Name: EasyInputStandard
+  m_EditorClassIdentifier: EasyInput.Runtime::EasyInput.InputProfile
+  MouseDegreesPerPixel: {x: 0.08, y: 0.08}
+  GamepadDegreesPerSecond: 160
+  LookMultiplier: 1
+  Defaults:
+    MouseSensitivity: 1
+    GamepadSensitivity: 1
+    InvertX: 0
+    InvertY: 0
+    StickDeadzoneMin: 0.125
+    StickDeadzoneMax: 0.925
+    DevicePreference: 0
+  DefaultMaps:
+  - Gameplay
+  DefaultCursor: 1
+  GlyphSets:
+  - {fileID: 11400000, guid: 3f5cc33a62465b541b8ae9442a1d8581, type: 2}
+  - {fileID: 11400000, guid: c6fed4fe8e15d154dbf0bfcfc4b9e244, type: 2}
+  - {fileID: 11400000, guid: 07fdbcb3ac5f64f45aae9ebaea165013, type: 2}
+  - {fileID: 11400000, guid: 84ac5a477cbc29a4185f1c2ba595fde9, type: 2}
+  - {fileID: 11400000, guid: d5c1fc9761624cc4e8fdd7f1868848eb, type: 2}

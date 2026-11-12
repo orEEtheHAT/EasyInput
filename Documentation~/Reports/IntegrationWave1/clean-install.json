@@ -1,0 +1,11 @@
+{
+    "result": "Succeeded",
+    "unity": "6000.3.22f1",
+    "inputSystem": "1.20.0",
+    "error": "",
+    "noOptionalPackages": true,
+    "defaultProfile": true,
+    "glyphs": true,
+    "buildErrors": 0,
+    "buildWarnings": 0
+}

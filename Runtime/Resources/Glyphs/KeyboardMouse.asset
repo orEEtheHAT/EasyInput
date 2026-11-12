@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6c746e76732314a902d95867640503, type: 3}
+  m_Name: KeyboardMouse
+  m_EditorClassIdentifier: EasyInput.Runtime::EasyInput.InputGlyphSet
+  Family: 0
+  Glyphs:
+  - ControlPath: <Keyboard>/e
+    Sprite: {fileID: 21300000, guid: 03882647f72c3614eba72dc7871556cd, type: 3}
+    Text: E
+  - ControlPath: <Keyboard>/space
+    Sprite: {fileID: 21300000, guid: 14a374aee9d4eb348af14dcaebb9a3d2, type: 3}
+    Text: Space
+  - ControlPath: <Mouse>/leftButton
+    Sprite: {fileID: 21300000, guid: cf0184c309881b34cbddacc2ea1944db, type: 3}
+    Text: LMB
+  - ControlPath: <Mouse>/rightButton
+    Sprite: {fileID: 21300000, guid: b0d15062e26601a4781012a6b0034482, type: 3}
+    Text: RMB
+  - ControlPath: <Gamepad>/buttonSouth
+    Sprite: {fileID: 21300000, guid: 78512ac969cf327498b5445b0c2f4259, type: 3}
+    Text: South
+  - ControlPath: <Gamepad>/buttonEast
+    Sprite: {fileID: 21300000, guid: 27ac281c02c41d9408bca803e28bd6d7, type: 3}
+    Text: East
+  - ControlPath: <Gamepad>/buttonWest
+    Sprite: {fileID: 21300000, guid: 2aeebd057c34523459bb2ae117316aea, type: 3}
+    Text: West
+  - ControlPath: <Gamepad>/buttonNorth
+    Sprite: {fileID: 21300000, guid: 11b0452c885e9814dbd1c231201f9f10, type: 3}
+    Text: North
+  - ControlPath: <Gamepad>/leftStick
+    Sprite: {fileID: 21300000, guid: 7249f3e1db5e85a4882b41f36761eb69, type: 3}
+    Text: Left stick
+  - ControlPath: <Gamepad>/rightStick
+    Sprite: {fileID: 21300000, guid: eb043914d498c5449a5a0a7ad3ad89ed, type: 3}
+    Text: Right stick
+  - ControlPath: <Gamepad>/leftTrigger
+    Sprite: {fileID: 21300000, guid: 7f21fab5adfcb1f4fbc0deb2c5de84c7, type: 3}
+    Text: LT
+  - ControlPath: <Gamepad>/rightTrigger
+    Sprite: {fileID: 21300000, guid: dcd7ff4573c5a1847abf56c2cab65726, type: 3}
+    Text: RT

@@ -1,0 +1,5 @@
+{
+  "name": "EasyInput.Runtime",
+  "rootNamespace": "EasyInput",
+  "references": ["Unity.InputSystem"]
+}

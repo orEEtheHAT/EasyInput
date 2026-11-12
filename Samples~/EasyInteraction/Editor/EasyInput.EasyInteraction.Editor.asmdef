@@ -1,0 +1,29 @@
+{
+  "references": [
+    "EasyInput.Runtime",
+    "EasyInput.Editor",
+    "EasyInput.EasyInteraction",
+    "EasyInteraction.Runtime",
+    "Unity.InputSystem"
+  ],
+  "name": "EasyInput.EasyInteraction.Editor",
+  "includePlatforms": [
+    "Editor"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.oreethehat.easy-input",
+      "expression": "0.2.0",
+      "define": "EASY_WAVE1_INPUT"
+    },
+    {
+      "name": "com.oreethehat.easy-interaction",
+      "expression": "0.3.0",
+      "define": "EASY_WAVE1_INTERACTION"
+    }
+  ],
+  "defineConstraints": [
+    "EASY_WAVE1_INPUT",
+    "EASY_WAVE1_INTERACTION"
+  ]
+}
